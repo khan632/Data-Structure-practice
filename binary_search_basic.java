@@ -98,5 +98,27 @@
 //        return -1;
 //    }
 
+// Majority ELement LC: 169
+// Prime example of Moore voting algorithm
+
+
+// public static void majorityElement (int [] arr) {
+//    int vote = 0, candidate = -1;
+//
+//    for(int i = 0; i < arr.length; i++) {
+//        if(vote == 0) {
+//            candidate = arr[i];
+//            vote = 1;
+//        }else {
+//            if (arr[i] == candidate) {
+//                candidate = arr[i];
+//                vote++;
+//            }else {
+//                vote--;
+//            }
+//        }
+//    }
+//}
+
 
 }
